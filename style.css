@@ -1,0 +1,35 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+body {
+    text-align: center;
+    background-color: rgba(49,51,56,255);
+}
+
+h1 {
+    font-size: 42px;
+}
+
+canvas {
+    border: 5px solid black;
+}
+
+button {
+    background-color: rgba(43,45,49,255);
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(53,55,60,255);
+}

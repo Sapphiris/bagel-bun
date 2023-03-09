@@ -19,6 +19,8 @@ h1 {
 
 canvas {
     border: 5px solid black;
+    width: 475px;
+    height: 475px;
 }
 
 button {

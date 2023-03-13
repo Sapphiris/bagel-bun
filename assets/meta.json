@@ -1,0 +1,7 @@
+{
+    "maxBodySize": 12,
+    "maxEarsSize": 11,
+    "maxFaceSize": 8,
+    "maxAccessorySize": 7,
+    "maxHatSize": 20
+}

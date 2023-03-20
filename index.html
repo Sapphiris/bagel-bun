@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bagel Bun</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/f7ff9f10e0.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="onload.js" defer></script>
-    <script src="randomize.js" defer></script>
-    <script src="category.js" defer></script>
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bagel Bun</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://kit.fontawesome.com/f7ff9f10e0.js" crossorigin="anonymous"></script>
+		<script src="onload.js" defer></script>
+		<script src="randomize.js" defer></script>
+		<script src="category.js" defer></script>
+		<script src="bunny.js" defer></script>
+	</head>
 
-  <body>
-    <h1>Bagel Bun Simulator</h1>
+	<body>
+		<h1>Bagel Bun Simulator</h1>
 
-    <main>
-      <section class="left">
-        <nav class="asset-category">
-          <ul>
-            <li id="bodyBtn">
-              <i class="fa-2xl fa-solid fa-palette"></i>
-            </li>
-            <li id="earsBtn">
-              <i class="fa-2xl fa-solid fa-droplet"></i>
-            </li>
-            <li id="faceBtn">
-              <i class="fa-2xl fa-solid fa-face-grin-wide"></i>
-            </li>
-            <li id="accessoryBtn">
-              <i class="fa-2xl fa-solid fa-glasses"></i>
-            </li>
-            <li id="hatBtn">
-              <i class="fa-2xl fa-solid fa-hat-cowboy"></i>
-            </li>
-          </ul>
-        </nav>
-        <div class="asset-selection">
-          <ul></ul>
-        </div>
-      </section>
+		<main>
+			<section class="left">
+				<nav class="asset-category">
+					<ul>
+						<li id="bodyBtn">
+							<i class="fa-2xl fa-solid fa-palette"></i>
+						</li>
+						<li id="earsBtn">
+							<i class="fa-2xl fa-solid fa-droplet"></i>
+						</li>
+						<li id="faceBtn">
+							<i class="fa-2xl fa-solid fa-face-grin-wide"></i>
+						</li>
+						<li id="accessoryBtn">
+							<i class="fa-2xl fa-solid fa-glasses"></i>
+						</li>
+						<li id="hatBtn">
+							<i class="fa-2xl fa-solid fa-hat-cowboy"></i>
+						</li>
+					</ul>
+				</nav>
+				<div class="asset-selection">
+					<ul>
+						<p>Click a category above to begin customizing!</p>
+					</ul>
+				</div>
+			</section>
 
-      <section class="right">
-        <canvas id="canvas"></canvas>
-        <button id="btn">Randomize</button>
-      </section>
-    </main>
-  </body>
+			<section class="right">
+				<canvas id="canvas"></canvas>
+				<button id="btn">Randomize</button>
+			</section>
+		</main>
+	</body>
 </html>

@@ -106,6 +106,9 @@ main {
     background-color: rgba(53,55,60,255);
 }
 
+.asset-selection p {
+    margin: auto;
+}
 
 /* RIGHT SIDE */
 

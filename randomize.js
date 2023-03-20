@@ -1,7 +1,7 @@
 "use strict";
 
 // RANDOM GENERATOR
-const generateButton = document.getElementById("btn");
+const generateButton = document.getElementById("randomButton");
 generateButton.addEventListener("click", async () => {
 	// Initialize metaSize
 	const metaSize = await fetch("assets/meta.json").then((response) => response.json());

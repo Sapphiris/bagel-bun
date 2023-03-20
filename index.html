@@ -11,10 +11,12 @@
 		/>
 		<link rel="stylesheet" href="style.css" />
 		<script src="https://kit.fontawesome.com/f7ff9f10e0.js" crossorigin="anonymous"></script>
+
+		<script src="bunny.js" defer></script>
 		<script src="onload.js" defer></script>
 		<script src="randomize.js" defer></script>
 		<script src="category.js" defer></script>
-		<script src="bunny.js" defer></script>
+		<script src="save.js" defer></script>
 	</head>
 
 	<body>
@@ -50,7 +52,10 @@
 
 			<section class="right">
 				<canvas id="canvas"></canvas>
-				<button id="btn">Randomize</button>
+				<div>
+					<button id="randomButton">Randomize</button>
+					<button id="saveButton">Save Image</button>
+				</div>
 			</section>
 		</main>
 	</body>
